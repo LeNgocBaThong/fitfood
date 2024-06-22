@@ -1,0 +1,44 @@
+/* Style Footer */
+/* -------------------------------------------------------------------------*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+}

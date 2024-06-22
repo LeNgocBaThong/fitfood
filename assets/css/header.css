@@ -1,0 +1,143 @@
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+}
+.main-logo{
+    display: flex;
+    margin-left: 50px;
+}
+.main-logo .name-logo a{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 10px;
+}
+.logo img {
+    max-height: 50px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.cta .button {
+    background-color: rgb(241, 53, 53);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta .button:hover {
+    background-color: #c60;
+}
+
+.content {
+    padding: 20px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #555;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #777;
+}
+/* ---------------------------- MENU -----------------------------------*/
+#menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    margin-right: px;
+    color: #575757;
+}
+
+#hidden-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding-top: 60px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+
+#hidden-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#hidden-menu ul li {
+    padding: 8px 16px;
+}
+
+#hidden-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#hidden-menu ul li a:hover {
+    background-color: #575757;
+}
+
+#hidden-menu:not(.hidden) {
+    transform: translateX(0);
+}
+
+.hidden {
+    transform: translateX(-100%);
+}
+
+.content {
+    padding: 20px;
+    margin-top: 60px; /* Adjust margin to avoid overlap with fixed menu button */
+}
