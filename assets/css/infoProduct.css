@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-main {
+    flex: 3;
+    margin-right: 20px;
+}
+.product-main img {
+    width: 100%;
+    border-radius: 15px;
+}
+.product-details {
+    margin-top: 15px;
+}
+.product-details h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.product-details p {
+    font-size: 14px;
+    color: #555;
+}
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.product-info .price {
+    color: red;
+    font-size: 22px;
+}
+.product-info .original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 14px;
+}
+.add-to-cart {
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.add-to-cart i {
+    margin-left: 5px;
+}
+.suggest-title {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+.suggest-container {
+    display: flex;
+    justify-content: space-between;
+}
+.suggest-container .suggest-item {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.suggest-container .suggest-item img {
+    width: 50%;
+    border-radius: 15px;
+}
+.ratings-container {
+    flex: 1;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ratings-container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.rating-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.rating-buttons .rating-button {
+    background: #ffcccc;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.rating-buttons .rating-button span {
+    margin-left: 5px;
+}
+.user-review {
+    margin-top: 20px;
+}
+.user-review img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.user-review .review-details {
+    display: flex;
+    align-items: center;
+}
+.user-review .review-details .user-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+.user-review .review-text {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}

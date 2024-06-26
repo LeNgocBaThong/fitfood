@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="../assets/css/productadd.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <hr class="line">
+                <li><a href="../includes/productadd.html">Add Product</a></li>
+                <hr class="line">
+                <li><a href="../includes/productlist.html">List Product</a></li>
+                <hr class="line">
+                <li><a href="../includes/voucher.html">Voucher</a></li>
+                <hr class="line">
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="product-form">
+                <div class="image-section">
+                    <img src="https://via.placeholder.com/150" alt="Product Image" id="productImage"><br>
+                    <button class="upload-btn">Upload</button>
+                </div>
+                <div class="form-section">
+                    <label for="productName">Name</label>
+                    <input type="text" id="productName" name="" value="">
+
+                    <label for="productPrice">Price</label>
+                    <input type="text" id="productPrice" name="" value="">
+
+                    <label for="productInfo">Info</label>
+                    <textarea id="productInfo" name="productInfo"></textarea>
+
+                    <label for="productSale">Sale</label>
+                    <select id="productSale" name="productSale">
+                        <option value="10%">10%</option>
+                        <option value="20%">20%</option>
+                        <option value="30%">30%</option>
+                    </select>
+
+                    <label for="productStatus">Status</label>
+                    <div class="status-section">
+                        <input type="radio" id="statusOn" name="productStatus" value="ON">
+                        <label for="statusOn">ON</label>
+                        <input type="radio" id="statusOff" name="productStatus" value="OFF">
+                        <label for="statusOff">OFF</label>
+                    </div>
+
+                    <button class="submit-btn">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

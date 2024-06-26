@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+.product-form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image-section {
+    text-align: center;
+    flex-basis: 28%;
+}
+
+.image-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.upload-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    padding: 15px;
+    font-size: medium;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-section {
+    width: 70%;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section textarea,
+.form-section select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.status-section {
+    display: flex;
+    align-items: center;
+    gap: 0px; 
+}
+
+.status-section input {
+    margin-right: 5px;
+}
+
+.status-section label {
+    margin-right: 20px;
+}
+
+.submit-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    padding: 15px;
+    font-size: medium;
+}
+
+.submit-btn:hover {
+    background-color: #c82333;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+}
