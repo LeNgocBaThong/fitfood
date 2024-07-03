@@ -12,11 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function openForm() {
-    document.getElementById("voucherForm").style.display = "block";
+    document.getElementById("voucherForm").classList.add('open');
+    document.querySelector('overlay').style.display = 'block';
 }
 
 function closeForm() {
-    document.getElementById("voucherForm").style.display = "none";
+    document.getElementById("voucherForm").classList.remove('open');
+    document.querySelector('overlay').style.display = 'none';
 }
 
 function navigateTo(url) {

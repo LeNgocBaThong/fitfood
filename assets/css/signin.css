@@ -74,16 +74,17 @@ h2 {
     color: #555;
 }
 
+
 input[type="email"],
 input[type="password"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 20px;
 }
 
-.show-password {
+.show-password {    
     text-align: left;
     margin: 10px 0;
 }
@@ -101,6 +102,7 @@ input[type="password"] {
 .signin-button:active{
     background-color: orange;
 }
+
 .social-logo {
     width: 24px; /* Set the width of the logo */
     height: 24px; /* Set the height of the logo */
